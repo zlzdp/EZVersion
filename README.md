@@ -47,6 +47,7 @@ compareVersions('10.1.1', '10.2.2');
 - 传入两个版本号，谁是基准？
 - 返回值是什么？一眼看不出来吧？
 - 他的返回值，参与到 ```if```运算中，代码可读性怎样？
+
 ### EZVersion VS compareVersions
 ```
 // EZVersion
