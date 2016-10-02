@@ -1,0 +1,21 @@
+{
+  "name": "EZVersion",
+  "version": "1.0.1",
+  "description": "EZVersion, an easy version compare tool. Compare semver version strings to find greater, equal or lesser.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dajbd/EZVersion.git"
+  },
+  "author": "denganjun1234@qq.com",
+  "keywords": [
+     "semver",
+     "version",
+     "compare",
+     "browser",
+     "node"
+   ],
+  "license": "MIT",
+  "dependencies": {}
+}

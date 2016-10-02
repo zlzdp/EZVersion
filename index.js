@@ -1,3 +1,8 @@
+/*
+ * EZVersion.js v1.0.1
+ * EZVersion, an easy version compare tool.
+ * EZVersion may be freely distributed under the MIT license.
+ */
 (function(global) {
     function EZVersion(version) {
         return new EZVersion.init(version)
