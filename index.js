@@ -45,6 +45,9 @@
                 if (currentVersion[i] > targetVersion[i]) {
                     result = true
                     break
+                } else if (currentVersion[i] <= targetVersion[i]) {
+                    result = false
+                    break
                 }
             }
 
@@ -76,6 +79,17 @@
         }
     }
 
-    global.EZVersion = EZVersion
+    // Export the EZVersion object for Node.js,
+    // with backwards-compatibility for their old module API.
+    // If we're in the browser, add `EZVersion` as a global object.
+    // (`nodeType` is checked to ensure that `module` and `exports` are not HTML elements.)
+    if (typeof exports != 'undefined' && !exports.nodeType) {
+        if (typeof module != 'undefined' && !module.nodeType && module.exports) {
+            exports = module.exports = EZVersion;
+        }
+        exports = EZVersion
+    } else {
+        global.EZVersion = EZVersion
+    }
 
 })(this)
