@@ -38,7 +38,7 @@ EZVersion('3.0.0').lte('2.9.0')    // false
 
 ## 广告(AD)
 - 这可能是东半球最好用的版本对比工具，也许在西半球也是。
-- 我们重新定义了版本对比。（广告词来自哪里，你懂的。）
+- 我们重新定义了版本对比。（广告词来自哪里，你懂的。）  
 如果你不信，请参考：[compare-versions](https://www.npmjs.com/package/compare-versions)，他的 API 看起来可就没有如此简洁明了。
 ```
 compareVersions('10.1.1', '10.2.2');
