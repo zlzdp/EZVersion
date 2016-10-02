@@ -1,7 +1,7 @@
 # EZVersion
 EZVersion, an easy version compare tool.
 
-Compare [semver](http://semver.org/) version strings to find greater, equal or lesser.
+Compare [semver](http://semver.org/) version strings to find greater, equal or lesser.  
 Runs in the browser as well as Node.js.
 
 
